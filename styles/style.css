@@ -212,6 +212,7 @@
   position: relative;
   text-decoration: none;
 }
+
 .lots__look-more-link {
   font-weight: 400;
   font-size: 20px;
@@ -242,11 +243,11 @@
   align-items: center;
 }
 
-.about__logo-center { 
-  display: flex; 
-  align-items: center; 
-  justify-content: center; 
-} 
+.about__logo-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 .about__logo-image {
   background-image: url(../images/logo-white.svg);
