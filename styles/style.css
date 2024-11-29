@@ -210,6 +210,7 @@
   height: 100%;
   width: 100%;
   position: relative;
+  text-decoration: none;
 }
 .lots__look-more-link {
   font-weight: 400;
@@ -227,7 +228,7 @@
   display: grid;
   grid-template-columns: 1fr 2fr;
   column-gap: 19px;
-  row-gap: 7px;
+  row-gap: 9px;
 }
 
 .about__logo {
@@ -240,6 +241,12 @@
   justify-content: center;
   align-items: center;
 }
+
+.about__logo-center { 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+} 
 
 .about__logo-image {
   background-image: url(../images/logo-white.svg);
@@ -273,7 +280,7 @@
 .footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  padding: 180px 50px 88px;
+  padding: 181px 50px 88px;
   align-items: start;
 }
 
@@ -304,10 +311,14 @@
 }
 
 .footer__social-icon {
-  min-width: 48px;
-  min-height: 48px;
+  width: 48px;
+  height: 48px;
 }
 
 .footer__link-active {
   text-decoration: none;
+}
+
+.footer__address {
+  justify-self: start;
 }
